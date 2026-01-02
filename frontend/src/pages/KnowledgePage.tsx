@@ -16,6 +16,34 @@ import GeneticsSimulation from '../components/simulations/GeneticsSimulation'
 import EnergyFlowSimulation from '../components/simulations/EnergyFlowSimulation'
 import MatterCycleSimulation from '../components/simulations/MatterCycleSimulation'
 import CellMembraneSimulation from '../components/simulations/CellMembraneSimulation'
+import ElementsCompoundsSimulation from '../components/simulations/ElementsCompoundsSimulation'
+import ProteinStructureSimulation from '../components/simulations/ProteinStructureSimulation'
+import EnzymeSimulation from '../components/simulations/EnzymeSimulation'
+import CellDivisionSimulation from '../components/simulations/CellDivisionSimulation'
+import GeneMutationSimulation from '../components/simulations/GeneMutationSimulation'
+import ChromosomeVariationSimulation from '../components/simulations/ChromosomeVariationSimulation'
+import BloodSugarSimulation from '../components/simulations/BloodSugarSimulation'
+import NerveRegulationSimulation from '../components/simulations/NerveRegulationSimulation'
+import ImmuneRegulationSimulation from '../components/simulations/ImmuneRegulationSimulation'
+import NucleicAcidSimulation from '../components/simulations/NucleicAcidSimulation'
+import CellNucleusSimulation from '../components/simulations/CellNucleusSimulation'
+import ATPSimulation from '../components/simulations/ATPSimulation'
+import CentralDogmaSimulation from '../components/simulations/CentralDogmaSimulation'
+import InternalEnvSimulation from '../components/simulations/InternalEnvSimulation'
+import HormoneRegulationSimulation from '../components/simulations/HormoneRegulationSimulation'
+import AuxinSimulation from '../components/simulations/AuxinSimulation'
+import EcosystemStructureSimulation from '../components/simulations/EcosystemStructureSimulation'
+import GeneToolsSimulation from '../components/simulations/GeneToolsSimulation'
+import GeneOperationSimulation from '../components/simulations/GeneOperationSimulation'
+import FermentationSimulation from '../components/simulations/FermentationSimulation'
+import SexLinkedSimulation from '../components/simulations/SexLinkedSimulation'
+import PlantHormonesSimulation from '../components/simulations/PlantHormonesSimulation'
+import CellDifferentiationSimulation from '../components/simulations/CellDifferentiationSimulation'
+import CellAgingDeathSimulation from '../components/simulations/CellAgingDeathSimulation'
+import EvolutionSimulation from '../components/simulations/EvolutionSimulation'
+import InformationTransferSimulation from '../components/simulations/InformationTransferSimulation'
+import PlantTissueCultureSimulation from '../components/simulations/PlantTissueCultureSimulation'
+import AnimalCloningSimulation from '../components/simulations/AnimalCloningSimulation'
 import DefaultSimulation from '../components/simulations/DefaultSimulation'
 
 const simulationMap: Record<string, React.ComponentType> = {
@@ -27,9 +55,37 @@ const simulationMap: Record<string, React.ComponentType> = {
   'translation': TranslationSimulation,
   'segregation-law': GeneticsSimulation,
   'free-combination': GeneticsSimulation,
+  'sex-linked': SexLinkedSimulation,
   'energy-flow': EnergyFlowSimulation,
   'matter-cycle': MatterCycleSimulation,
   'cell-membrane': CellMembraneSimulation,
+  'elements-compounds': ElementsCompoundsSimulation,
+  'protein-structure': ProteinStructureSimulation,
+  'nucleic-acid': NucleicAcidSimulation,
+  'cell-nucleus': CellNucleusSimulation,
+  'enzyme': EnzymeSimulation,
+  'atp': ATPSimulation,
+  'cell-division': CellDivisionSimulation,
+  'central-dogma': CentralDogmaSimulation,
+  'gene-mutation': GeneMutationSimulation,
+  'chromosome-variation': ChromosomeVariationSimulation,
+  'internal-env': InternalEnvSimulation,
+  'nerve-regulation': NerveRegulationSimulation,
+  'hormone-regulation': HormoneRegulationSimulation,
+  'immune-regulation': ImmuneRegulationSimulation,
+  'blood-sugar': BloodSugarSimulation,
+  'auxin': AuxinSimulation,
+  'ecosystem-structure': EcosystemStructureSimulation,
+  'gene-tools': GeneToolsSimulation,
+  'gene-operation': GeneOperationSimulation,
+  'fermentation-principle': FermentationSimulation,
+  'other-hormones': PlantHormonesSimulation,
+  'cell-differentiation': CellDifferentiationSimulation,
+  'cell-aging-death': CellAgingDeathSimulation,
+  'evolution': EvolutionSimulation,
+  'information-transfer': InformationTransferSimulation,
+  'plant-tissue-culture': PlantTissueCultureSimulation,
+  'animal-cloning': AnimalCloningSimulation,
 }
 
 export default function KnowledgePage() {

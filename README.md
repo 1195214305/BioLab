@@ -69,7 +69,7 @@ BioLab 充分利用阿里云 ESA Pages 的边缘计算能力：
 │   ├── src/
 │   │   ├── components/       # 组件
 │   │   │   ├── Layout.tsx    # 布局组件
-│   │   │   └── simulations/  # 交互式演示组件
+│   │   │   └── simulations/  # 交互式演示组件（38个）
 │   │   │       ├── CellOrganellesSimulation.tsx    # 细胞器演示
 │   │   │       ├── PhotosynthesisSimulation.tsx    # 光合作用演示
 │   │   │       ├── RespirationSimulation.tsx       # 细胞呼吸演示
@@ -79,7 +79,14 @@ BioLab 充分利用阿里云 ESA Pages 的边缘计算能力：
 │   │   │       ├── GeneticsSimulation.tsx          # 遗传规律演示
 │   │   │       ├── EnergyFlowSimulation.tsx        # 能量流动演示
 │   │   │       ├── MatterCycleSimulation.tsx       # 物质循环演示
-│   │   │       └── CellMembraneSimulation.tsx      # 细胞膜演示
+│   │   │       ├── CellMembraneSimulation.tsx      # 细胞膜演示
+│   │   │       ├── CellDifferentiationSimulation.tsx  # 细胞分化演示
+│   │   │       ├── CellAgingDeathSimulation.tsx    # 细胞衰老凋亡演示
+│   │   │       ├── EvolutionSimulation.tsx         # 生物进化演示
+│   │   │       ├── InformationTransferSimulation.tsx  # 信息传递演示
+│   │   │       ├── PlantTissueCultureSimulation.tsx   # 植物组织培养演示
+│   │   │       ├── AnimalCloningSimulation.tsx     # 动物克隆演示
+│   │   │       └── ...更多演示组件
 │   │   ├── pages/            # 页面
 │   │   │   ├── HomePage.tsx      # 首页
 │   │   │   ├── CategoryPage.tsx  # 分类页

@@ -157,7 +157,7 @@ const molecular: Category = {
           description: '细胞分化的概念、特点、原因及意义',
           category: 'molecular',
           subcategory: 'cell-lifecycle',
-          hasSimulation: false,
+          hasSimulation: true,
           keywords: ['细胞分化', '基因表达', '干细胞']
         },
         {
@@ -166,7 +166,7 @@ const molecular: Category = {
           description: '细胞衰老的特征、细胞凋亡的概念及意义',
           category: 'molecular',
           subcategory: 'cell-lifecycle',
-          hasSimulation: false,
+          hasSimulation: true,
           keywords: ['细胞衰老', '细胞凋亡', '程序性死亡']
         }
       ]
@@ -284,7 +284,7 @@ const genetics: Category = {
           description: '现代生物进化理论，自然选择与物种形成',
           category: 'genetics',
           subcategory: 'mutation-variation',
-          hasSimulation: false,
+          hasSimulation: true,
           keywords: ['进化', '自然选择', '基因频率', '物种形成']
         }
       ]
@@ -375,7 +375,7 @@ const homeostasis: Category = {
           description: '赤霉素、细胞分裂素、脱落酸、乙烯的作用',
           category: 'homeostasis',
           subcategory: 'plant-hormone',
-          hasSimulation: false,
+          hasSimulation: true,
           keywords: ['赤霉素', '细胞分裂素', '脱落酸', '乙烯']
         }
       ]
@@ -417,7 +417,7 @@ const homeostasis: Category = {
           description: '生态系统中信息的种类和作用',
           category: 'homeostasis',
           subcategory: 'ecosystem',
-          hasSimulation: false,
+          hasSimulation: true,
           keywords: ['信息传递', '物理信息', '化学信息', '行为信息']
         }
       ]
@@ -466,7 +466,7 @@ const biotech: Category = {
           description: '植物组织培养的原理、过程和应用',
           category: 'biotech',
           subcategory: 'cell-engineering',
-          hasSimulation: false,
+          hasSimulation: true,
           keywords: ['组织培养', '脱分化', '再分化', '愈伤组织']
         },
         {
@@ -475,7 +475,7 @@ const biotech: Category = {
           description: '体细胞核移植技术的原理和应用',
           category: 'biotech',
           subcategory: 'cell-engineering',
-          hasSimulation: false,
+          hasSimulation: true,
           keywords: ['克隆', '核移植', '多利羊']
         }
       ]
